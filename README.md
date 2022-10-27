@@ -28,7 +28,7 @@ Use [composer](https://getcomposer.org) to install PhpSpreadsheet into your proj
 composer require phpoffice/phpspreadsheet
 ```
 
-If you are building your installation on a development machine that is on a different PHP version to the server where it will be deployed, or if your PHP CLI version is not the same as your run-time such as `php-fpm` or Apache's `mod_php`, then you might want to add the following to your `composer.json` before installing:
+If you are building your installation on a development machine that is on a different PHP version to the server where it will be deployed or if your PHP CLI version is not the same as your run-time such as `php-fpm` or Apache's `mod_php`, then you might want to add the following to your `composer.json` before installing:
 ```json
 {
     "require": {
@@ -55,7 +55,7 @@ If you want to write to PDF, or to include Charts when you write to HTML or PDF,
 
 #### PDF
 
-For PDF Generation, you can install any of the following, and then configure PhpSpreadsheet to indicate which library you are going to use:
+For PDF Generation, you can install any of the following and then configure PhpSpreadsheet to indicate which library you are going to use:
  - mpdf/mpdf
  - dompdf/dompdf
  - tecnickcom/tcpdf
@@ -87,15 +87,15 @@ One or the other of these libraries is necessary if you want to generate HTML or
 
 ## Documentation
 
-Read more about it, including install instructions, in the [official documentation](https://phpspreadsheet.readthedocs.io). Or check out the [API documentation](https://phpoffice.github.io/PhpSpreadsheet).
+Read more about it, including install instructions in the [official documentation](https://phpspreadsheet.readthedocs.io) or check out the [API documentation](https://phpoffice.github.io/PhpSpreadsheet).
 
-Please ask your support questions on [StackOverflow](https://stackoverflow.com/questions/tagged/phpspreadsheet), or have a quick chat on [Gitter](https://gitter.im/PHPOffice/PhpSpreadsheet).
+Please ask your support questions on [StackOverflow](https://stackoverflow.com/questions/tagged/phpspreadsheet) or have a quick chat on [Gitter](https://gitter.im/PHPOffice/PhpSpreadsheet).
 
 ## PHPExcel vs PhpSpreadsheet ?
 
 PhpSpreadsheet is the next version of PHPExcel. It breaks compatibility to dramatically improve the code base quality (namespaces, PSR compliance, use of latest PHP language features, etc.).
 
-Because all efforts have shifted to PhpSpreadsheet, PHPExcel will no longer be maintained. All contributions for PHPExcel, patches and new features, should target PhpSpreadsheet `master` branch.
+Because all efforts have shifted to PhpSpreadsheet, PHPExcel will no longer be maintained. All contributions for PHPExcel, patches and new features should target PhpSpreadsheet `master` branch.
 
 Do you need to migrate? There is [an automated tool](/docs/topics/migration-from-PHPExcel.md) for that.
 
